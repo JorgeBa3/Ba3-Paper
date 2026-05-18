@@ -1,0 +1,59 @@
+metadata:
+  schema_version: '1.0'
+  source_file: Prueba estrellita.mid
+  created_at: '2026-05-18T17:16:33Z'
+  author: ''
+  style: ''
+global:
+  tempo_bpm: 120.0
+  time_signature: 4/4
+  key_signature: C major
+tracks:
+  - id: 1
+    label: Flute - Piano
+    instrument:
+      gm_number: 73
+      gm_name: Flute
+    vocal_range:
+      lowest_note: C4
+      highest_note: A4
+      range_name: Soprano
+    dynamics:
+      velocity_min: 80
+      velocity_max: 80
+      velocity_average: 80.0
+    articulations:
+      - legato
+      - tenuto
+    note_count: 42
+    transformations:
+      - type: instrument_change
+        reason: Cambiar de flauta a piano
+        to_gm: 0
+      - type: transpose
+        reason: Subir una octava
+        semitones: 12
+  - id: 2
+    label: Piano
+    instrument:
+      gm_number: 0
+      gm_name: Acoustic Grand Piano
+    vocal_range:
+      lowest_note: B3
+      highest_note: A4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 80
+      velocity_max: 80
+      velocity_average: 80.0
+    articulations:
+      - legato
+      - tenuto
+    note_count: 58
+    transformations:
+      - type: instrument_change
+        reason: Cambiar piano a marimba
+        to_gm: 12
+      - type: augment
+        reason: Duplicar tiempo
+        duration_factor: 2.0
