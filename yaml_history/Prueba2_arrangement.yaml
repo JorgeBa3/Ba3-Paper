@@ -1,0 +1,46 @@
+metadata:
+  schema_version: '1.0'
+  source_file: Prueba2.mid
+  created_at: '2026-05-15T04:44:00Z'
+  author: ''
+  style: ''
+global:
+  tempo_bpm: 120.0
+  time_signature: 4/4
+  key_signature: C major
+tracks:
+  - id: 1
+    label: Piano - Right Hand
+    instrument:
+      gm_number: 0
+      gm_name: Acoustic Grand Piano
+    vocal_range:
+      lowest_note: C4
+      highest_note: C5
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 80
+      velocity_max: 80
+      velocity_average: 80.0
+    articulations:
+      - legato
+      - tenuto
+    note_count: 128
+    transformations: []
+  - id: 2
+    label: Piano - Left Hand
+    instrument:
+      gm_number: 0
+      gm_name: Acoustic Grand Piano
+    vocal_range:
+      lowest_note: C3
+      highest_note: C4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 80
+      velocity_max: 80
+      velocity_average: 80.0
+    articulations:
+      - tenuto
+    note_count: 64
+    transformations: []

@@ -1,0 +1,69 @@
+metadata:
+  schema_version: '1.0'
+  source_file: Prueba1.mid
+  created_at: '2026-05-13T05:24:14Z'
+  author: Jane Doe
+  style: baroque
+
+global:
+  tempo_bpm: 132.0
+  time_signature: 3/4
+  key_signature: C major
+
+tracks:
+  # ── Track 1: Mano derecha — transponer una quinta arriba + humanizar
+  - id: 1
+    label: Piano - Right Hand
+    instrument:
+      gm_number: 0
+      gm_name: Acoustic Grand Piano
+    transformations:
+      - type: transpose
+        semitones: 7
+        reason: "Quinta arriba para más brillo"
+      - type: humanize
+        timing_ms: 12
+        velocity_variance: 6
+        reason: "Toque más expresivo y menos robótico"
+
+  # ── Track 2: Mano izquierda — sin cambios (copia exacta)
+  - id: 2
+    label: Piano - Left Hand
+    instrument:
+      gm_number: 0
+      gm_name: Acoustic Grand Piano
+    transformations: []
+
+  # ── Track 3: Violín derivado del track 1 — octava arriba + más suave
+  - id: 3
+    source_track_id: 1
+    label: Violin - Contrapunto
+    instrument:
+      gm_number: 40
+      gm_name: Violin
+    transformations:
+      - type: transpose
+        semitones: 12
+        reason: "Octava arriba sobre la mano derecha"
+      - type: velocity_scale
+        factor: 0.75
+        reason: "Más suave para no tapar el piano"
+      - type: humanize
+        timing_ms: 18
+        velocity_variance: 10
+        reason: "Fraseo natural de cuerdas"
+
+  # ── Track 4: Flauta derivada del track 2 — inversión melódica
+  - id: 4
+    source_track_id: 2
+    label: Flauta - Inversion
+    instrument:
+      gm_number: 73
+      gm_name: Flute
+    transformations:
+      - type: invert
+        pivot_midi: 60
+        reason: "Inversión melódica alrededor de C4"
+      - type: velocity_scale
+        factor: 0.85
+        reason: "Dinámica suave para la flauta"
