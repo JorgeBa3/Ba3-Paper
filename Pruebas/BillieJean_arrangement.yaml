@@ -1,0 +1,273 @@
+metadata:
+  schema_version: '1.0'
+  source_file: BillieJean.mid
+  created_at: '2026-05-19T02:38:58Z'
+  author: ''
+  style: ''
+global:
+  tempo_bpm: 117.0
+  time_signature: 4/4
+  key_signature: D# minor
+tracks:
+  - id: 1
+    label: Fretless Bass
+    instrument:
+      gm_number: 35
+      gm_name: Fretless Bass
+    vocal_range:
+      lowest_note: F#1
+      highest_note: C4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 1
+      velocity_max: 127
+      velocity_average: 126.8
+    articulations:
+      - natural
+    note_count: 1023
+    transformations:
+      - type: transpose
+        reason: baja un tono
+        semitones: -2
+  - id: 2
+    label: Drumkit
+    instrument:
+      gm_number: 128
+      gm_name: Acoustic Grand Piano
+    vocal_range:
+      lowest_note: C2
+      highest_note: C#6
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 1
+      velocity_max: 121
+      velocity_average: 72.7
+    articulations:
+      - staccato
+    note_count: 2976
+    transformations:
+      - type: velocity_scale
+        reason: un poco más suave
+        factor: 0.85
+  - id: 3
+    label: Clavi
+    instrument:
+      gm_number: 7
+      gm_name: Clavi
+    vocal_range:
+      lowest_note: F#1
+      highest_note: F#1
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 117
+      velocity_max: 117
+      velocity_average: 117.0
+    articulations:
+      - natural
+    note_count: 22
+    transformations:
+      - type: transpose
+        reason: subir una octava
+        semitones: 12
+  - id: 4
+    label: SynthStrings 1
+    instrument:
+      gm_number: 51
+      gm_name: SynthStrings 2
+    vocal_range:
+      lowest_note: A3
+      highest_note: A4
+      range_name: Mezzo
+    dynamics:
+      velocity_min: 27
+      velocity_max: 100
+      velocity_average: 86.0
+    articulations:
+      - legato
+      - tenuto
+    note_count: 618
+    transformations:
+      - type: velocity_scale
+        reason: mas presente
+        factor: 1.15
+  - id: 5
+    label: Voice Oohs
+    instrument:
+      gm_number: 53
+      gm_name: Voice Oohs
+    vocal_range:
+      lowest_note: F#3
+      highest_note: C#5
+      range_name: Alto
+    dynamics:
+      velocity_min: 64
+      velocity_max: 127
+      velocity_average: 125.0
+    articulations:
+      - natural
+    note_count: 511
+    transformations:
+      - type: transpose
+        reason: subir una cuarta
+        semitones: 5
+  - id: 6
+    label: Electric Piano 2
+    instrument:
+      gm_number: 6
+      gm_name: Harpsichord
+    vocal_range:
+      lowest_note: C#3
+      highest_note: D4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 37
+      velocity_max: 98
+      velocity_average: 82.7
+    articulations:
+      - tenuto
+    note_count: 87
+    transformations:
+      - type: augment
+        reason: notas más largas
+        duration_factor: 1.3
+  - id: 7
+    label: SynthBrass 2
+    instrument:
+      gm_number: 63
+      gm_name: SynthBrass 2
+    vocal_range:
+      lowest_note: F#4
+      highest_note: E5
+      range_name: Soprano
+    dynamics:
+      velocity_min: 99
+      velocity_max: 127
+      velocity_average: 121.4
+    articulations:
+      - natural
+    note_count: 10
+    transformations:
+      - type: transpose
+        reason: bajar una cuarta
+        semitones: -5
+  - id: 8
+    label: String Ensemble 2
+    instrument:
+      gm_number: 49
+      gm_name: String Ensemble 2
+    vocal_range:
+      lowest_note: F#3
+      highest_note: C#6
+      range_name: Soprano
+    dynamics:
+      velocity_min: 37
+      velocity_max: 126
+      velocity_average: 84.7
+    articulations:
+      - legato
+      - tenuto
+    note_count: 273
+    transformations:
+      - type: velocity_scale
+        reason: mas fondo
+        factor: 0.7
+  - id: 9
+    label: Electric Guitar (clean)
+    instrument:
+      gm_number: 28
+      gm_name: Electric Guitar (muted)
+    vocal_range:
+      lowest_note: F#3
+      highest_note: F#4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 68
+      velocity_max: 127
+      velocity_average: 89.2
+    articulations:
+      - staccato
+    note_count: 416
+    transformations:
+      - type: transpose
+        reason: subir una quinta
+        semitones: 7
+  - id: 10
+    label: Pad 1 (new age)
+    instrument:
+      gm_number: 89
+      gm_name: Pad 2 (warm)
+    vocal_range:
+      lowest_note: F#3
+      highest_note: D#4
+      range_name: Alto
+    dynamics:
+      velocity_min: 119
+      velocity_max: 127
+      velocity_average: 126.4
+    articulations:
+      - tenuto
+    note_count: 14
+    transformations:
+      - type: velocity_scale
+        reason: casi ambiental
+        factor: 0.6
+  - id: 11
+    label: Electric Guitar (muted) 1
+    instrument:
+      gm_number: 28
+      gm_name: Electric Guitar (muted)
+    vocal_range:
+      lowest_note: C#3
+      highest_note: F#4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 32
+      velocity_max: 127
+      velocity_average: 116.3
+    articulations:
+      - natural
+    note_count: 252
+    transformations:
+      - type: diminish
+        reason: más staccato
+        duration_factor: 0.8
+  - id: 12
+    label: SynthBrass 1
+    instrument:
+      gm_number: 62
+      gm_name: SynthBrass 1
+    vocal_range:
+      lowest_note: E4
+      highest_note: C6
+      range_name: Soprano
+    dynamics:
+      velocity_min: 38
+      velocity_max: 127
+      velocity_average: 116.6
+    articulations:
+      - natural
+    note_count: 37
+    transformations:
+      - type: transpose
+        reason: tercera menor arriba
+        semitones: 3
+  - id: 13
+    label: Electric Guitar (muted) 2
+    instrument:
+      gm_number: 28
+      gm_name: Electric Guitar (muted)
+    vocal_range:
+      lowest_note: F#3
+      highest_note: C4
+      range_name: Instrumental
+    dynamics:
+      velocity_min: 88
+      velocity_max: 127
+      velocity_average: 121.4
+    articulations:
+      - natural
+    note_count: 28
+    transformations:
+      - type: velocity_scale
+        reason: más rapido
+        factor: 1.2
